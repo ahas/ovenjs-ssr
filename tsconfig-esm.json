@@ -1,0 +1,8 @@
+{
+    "extends": "./tsconfig.json",
+    "compilerOptions": {
+        "module": "ESNext"
+    },
+    "exclude": [],
+    "include": ["./src/vue/*", "./src/vue/**/*", "./src/utils/*"]
+}

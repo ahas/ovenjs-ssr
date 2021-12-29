@@ -1,0 +1,27 @@
+{
+    "compilerOptions": {
+        "outDir": "./dist",
+        "target": "ES2019",
+        "module": "CommonJS",
+        "lib": ["ESNext", "DOM"],
+        "esModuleInterop": true,
+        "allowJs": true,
+        "checkJs": false,
+        "strict": true,
+        "strictNullChecks": true,
+        "moduleResolution": "Node",
+        "resolveJsonModule": true,
+        "skipLibCheck": true,
+        "sourceMap": false,
+        "declaration": true,
+        "declarationMap": false,
+        "stripInternal": true,
+        "allowSyntheticDefaultImports": true,
+        "forceConsistentCasingInFileNames": true,
+        "noFallthroughCasesInSwitch": false,
+        "removeComments": false,
+        "noImplicitAny": true
+    },
+    "include": ["./src"],
+    "exclude": ["./src/vue/*"]
+}

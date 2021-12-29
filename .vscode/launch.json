@@ -1,0 +1,12 @@
+{
+    "configurations": [
+        {
+            "name": "Launch Program",
+            "program": "${workspaceFolder}/node_modules/vite-ssr/cli.js",
+            "request": "launch",
+            "args": ["--port", "8080", "--force"],
+            // "skipFiles": ["<node_internals>/**"],
+            "type": "pwa-node"
+        }
+    ]
+}
